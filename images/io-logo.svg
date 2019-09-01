@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 150 150">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #0b1b24;
+      }
+
+      .cls-2 {
+        fill: #fff;
+        font-size: 42px;
+        font-family: Graphit-Regular, Graphit;
+      }
+
+      .cls-3 {
+        filter: url(#Ellipse_1);
+      }
+    </style>
+    <filter id="Ellipse_1" x="0" y="0" width="150" height="150" filterUnits="userSpaceOnUse">
+      <feOffset dy="10" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="10" result="blur"/>
+      <feFlood flood-opacity="0.161"/>
+      <feComposite operator="in" in2="blur"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+  </defs>
+  <g id="io-logo" transform="translate(-451 -113)">
+    <g class="cls-3" transform="matrix(1, 0, 0, 1, 451, 113)">
+      <circle id="Ellipse_1-2" data-name="Ellipse 1" class="cls-1" cx="45" cy="45" r="45" transform="translate(30 20)"/>
+    </g>
+    <text id="IO" class="cls-2" transform="translate(503 193)"><tspan x="0" y="0">IO</tspan></text>
+  </g>
+</svg>

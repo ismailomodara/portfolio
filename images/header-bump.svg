@@ -1,0 +1,12 @@
+<svg id="bump" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 304 56">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #0b1b24;
+        fill-rule: evenodd;
+      }
+    </style>
+  </defs>
+  <path id="Path-2" class="cls-1" d="M0,55.591s51.047,3.7,77.517-11.174S114.512,0,154,0c.007,28.144,0,55.591,0,55.591Z"/>
+  <path id="Path-2-2" data-name="Path-2" class="cls-1" d="M150-55.591s51.047-3.7,77.517,11.174S264.512,0,304,0c.007-28.144,0-55.591,0-55.591Z" transform="translate(454) rotate(180)"/>
+</svg>
