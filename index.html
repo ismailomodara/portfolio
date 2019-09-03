@@ -16,7 +16,12 @@
 
 <body>
 	<div class="io-loader">
-		<div class="stripe"></div>
+		<div>
+			<div class="stripe"></div>
+			<div class="stripe"></div>
+			<div class="stripe"></div>
+			<div class="stripe"></div>
+		</div>
 	</div>
 	<main>
 		<div data-scroll>
@@ -226,23 +231,28 @@
 	<script src="js/imagesloaded.pkgd.min.js"></script>
 	<script src="js/io.js"></script>
 	<script>
+		//Loader
 		window.addEventListener('load', () => {
 			setTimeout(() => {
 				const loader = document.querySelector('.io-loader');
-				loader.classList += ' loaded';
-
+				loader.classList.add("loaded");
+				document.querySelectorAll(".io-header > div").forEach(element => {
+					element.classList.add("fadeIn");
+				})
 				setTimeout(() => {
-					loader.classList += ' hidden';
-				}, 2325);
+					loader.classList.add("hidden");
+				}, 3000);
 			}, 1000);
 		});
 
+		//Nav menu
 		const menu = document.querySelector(".io-hamburger");
 		menu.addEventListener("click", function () {
 			menu.classList.toggle("active");
 			document.querySelector(".io-menu--links").classList.toggle("open");
 		})
 
+		//Custom Cursor
 		const cursor = document.querySelector(".cursor");
 		document.addEventListener("mousemove", e => {
 			cursor.setAttribute("style", `top: ${e.pageY - 10}px; left: ${e.pageX - 10}px`);
