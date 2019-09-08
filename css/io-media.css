@@ -106,5 +106,13 @@
         width: 100%;
     }
 
+    .item {
+        margin: 5vh auto;
+    }
+    
+    .item::before {
+        font-size: 3rem;
+        bottom: calc(100% - 1rem);
+    }
 
 }
