@@ -160,6 +160,10 @@ a:focus {
 	outline: none;
 }
 
+.text-center {
+	text-align: center;
+}
+
 [data-scroll] {
 	will-change: transform;
 }

@@ -50,6 +50,10 @@
 }
 
 @media only screen and (max-width: 600px) {
+    .cursor {
+        display: none;
+    }
+    
     h2 {
         font-size: 2rem;
     }
@@ -65,7 +69,7 @@
     }
 
     .io-header--text h1 {
-        font-size: 4rem;
+        font-size: 3.8rem;
     }
 
     .io-header--text h6 {
