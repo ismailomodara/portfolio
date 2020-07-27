@@ -359,7 +359,7 @@ section {
 
 .io-header--text h6 {
 	font-size: 1.3rem;
-	font-weight: 600;
+	font-weight: 500;
 }
 
 .io-header--text h6 span {
@@ -527,7 +527,7 @@ section {
 }
 
 .item:nth-child(1)::before {
-	content: "Web";
+	content: "Web App";
 }
 
 .item:nth-child(2)::before {
@@ -539,7 +539,11 @@ section {
 }
 
 .item:nth-child(4)::before {
-	content: "Web";
+	content: "Web App";
+}
+
+.item:nth-child(5)::before {
+	content: "UI";
 }
 
 .item:nth-child(even)::before {
@@ -558,18 +562,18 @@ section {
 
 .item:first-child .item__img-wrap {
 	--aspect-ratio: 120/60;
-	--image: url(../images/tvio.jpg);
+	--image: url(../images/vidrl.jpg);
 }
 
 .item:nth-child(2) .item__img-wrap {
-	width: 1000px;
-	--aspect-ratio: 120/76;
-	--image: url(../images/perfects.jpg);
+	--aspect-ratio: 120/60;
+	--image: url(../images/tvio.jpg);
 }
 
 .item:nth-child(3) .item__img-wrap {
-	--aspect-ratio: 60/75;
-	--image: url(../images/woollar.jpg);
+	width: 1000px;
+	--aspect-ratio: 120/76;
+	--image: url(../images/perfects.jpg);
 }
 
 .item:nth-child(4) .item__img-wrap {
@@ -579,29 +583,34 @@ section {
 }
 
 .item:nth-child(5) .item__img-wrap {
+	--aspect-ratio: 60/75;
+	--image: url(../images/woollar.jpg);
+}
+
+.item:nth-child(6) .item__img-wrap {
 	--aspect-ratio: 6/8;
 	--image: url(https://tympanus.net/Tutorials/SmoothScrollAnimations/img/5.jpg);
 }
 
-.item:nth-child(6) .item__img-wrap {
+.item:nth-child(7) .item__img-wrap {
 	width: calc(100vw - 2rem);
 	--aspect-ratio: 1500/844;
 	--image: url(../images/tvio.jpg);
 }
 
-.item:nth-child(7) .item__img-wrap {
+.item:nth-child(8) .item__img-wrap {
 	width: 900px;
 	--aspect-ratio: 1000/749;
 	--image: url(https://tympanus.net/Tutorials/SmoothScrollAnimations/img/7.jpg);
 }
 
-.item:nth-child(8) .item__img-wrap {
+.item:nth-child(9) .item__img-wrap {
 	width: 900px;
 	--aspect-ratio: 1000/562;
 	--image: url(https://tympanus.net/Tutorials/SmoothScrollAnimations/img/8.jpg);
 }
 
-.item:nth-child(9) .item__img-wrap {
+.item:nth-child(10) .item__img-wrap {
 	--aspect-ratio: 60/75;
 	--image: url(https://tympanus.net/Tutorials/SmoothScrollAnimations/img/9.jpg);
 }
