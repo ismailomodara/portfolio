@@ -221,7 +221,6 @@ section {
 
 .io-menu--links {
 	opacity: 1;
-	visibility: hidden;
 	transition: opacity .35s, visibility .35s;
 	margin: 0;
 	padding: 0 20px;
@@ -231,14 +230,9 @@ section {
 	justify-content: space-between;
 }
 
-.io-menu--links.open {
-	visibility: visible;
-}
-
 .io-menu--links li {
 	padding: 12px 30px;
 	cursor: pointer;
-	opacity: 0;
 }
 
 .io-menu--links li a {

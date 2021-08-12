@@ -33,22 +33,9 @@
 					<div class="io-menu">
 						<ul class="io-menu--links">
 							<li>
-								<a href="#about">About me</a>
-							</li>
-							<li>
-								<a href="#experience">Experience</a>
-							</li>
-							<li>
-								<a href="#work">Works</a>
-							</li>
-							<li>
-								<a href="#">Say Hello</a>
+								<a href="resume/Ismail_Omodara_Resume.pdf" download>My Resume</a>
 							</li>
 						</ul>
-						<div class="io-hamburger" id="toggle">
-							<span class="top"></span>
-							<span class="bottom"></span>
-						</div>
 					</div>
 				</div>
 				<div class="io-header--text">
@@ -150,9 +137,10 @@
 			<section class="io-about" id="about">
 				<div class="io-container">
 					<h2 class="io-section--heading">About Me</h2>
-					<p>I'm an innovative and proactive Frontend Engineer capable of developing elegant, groundbreaking website
-						and application designs for demanding clients. I have experience in project management, team leadership
-						and independent problem-solving. I do well with organized multitasking, enhancing designs and verifying code. </p>
+					<p>I'm a Frontend Engineer with 2+ years of
+						experience building web products,
+						developing elegant and functional
+						websites, and application designs. </p>
 				</div>
 			</section>
 			<section class="io-work--experience" id="experience">
@@ -196,7 +184,7 @@
 						<div class="item__caption">
 							<h2 class="item__caption-title">VIDRL</h2>
 							<p class="item__caption-copy">A web app that helps users create video based events in minutes
-								<a href="https://vidrl.com" target="_blank"> Visit site</a>
+								<a href="https://vidrl.netlify.app/" target="_blank"> Visit site</a>
 							</p>
 						</div>
 					</div>
@@ -275,7 +263,6 @@
 		const menu = document.querySelector(".io-hamburger");
 		menu.addEventListener("click", function () {
 			menu.classList.toggle("active");
-			document.querySelector(".io-menu--links").classList.toggle("open");
 		})
 
 		//Custom Cursor
