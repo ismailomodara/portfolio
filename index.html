@@ -4,7 +4,7 @@
 <head>
 	<meta charset="UTF-8" />
 	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<title>Ismail Omodara | UI Designer et Frontend Developer</title>
+	<title>Ismail Omodara | Product Engineer</title>
 	<meta name="description"
 		content="A UI Designer and Frontend Web Developer enthusiastic about building functional web applications." />
 	<meta name="keywords" content="Ismail, Omodara, Ismail Omodara, UI Design, Frontend Developer, Frontend Engineer" />
@@ -40,10 +40,10 @@
 				</div>
 				<div class="io-header--text">
 					<h1>Ismail Omodara</h1>
-					<h6>UI Designer <span>et</span> Frontend Developer</h6>
+					<h6>Product Engineer</h6>
 				</div>
 				<div class="io-social--media__links">
-					<a href="https://www.github.com/omodara145">
+					<a href="https://www.github.com/ismailomodara">
 						<svg xmlns="http://www.w3.org/2000/svg" width="24.47" height="26.005"
 							viewBox="0 0 24.47 26.005">
 							<defs>
@@ -137,10 +137,7 @@
 			<section class="io-about" id="about">
 				<div class="io-container">
 					<h2 class="io-section--heading">About Me</h2>
-					<p>I'm a Frontend Engineer with 2+ years of
-						experience building web products,
-						developing elegant and functional
-						websites, and application designs. </p>
+					<p>I'm a Frontend Engineer with 3+ years of experience designing and building web applications, crafting seamless digital experiences. With a background as a UI Designer, I build functional experiences on the web, because I think and see things not just as an engineer, but also as a user. </p>
 				</div>
 			</section>
 			<section class="io-work--experience" id="experience">
@@ -234,13 +231,11 @@
 			</section>
 			<section>
 				<div class="io-container">
-					<!-- <h2 class="io-section--heading">Hire or Hello</h2> -->
-					<p class="text-center">&copy 2019 - Ismail Omodara. All rights reserved.</p>
+					<p class="text-center copyright"></p>
 				</div>
 			</section>
 		</div>
 	</main>
-	<div class="cursor"></div>
 
 	<script src="js/imagesloaded.pkgd.min.js"></script>
 	<script src="js/io.js"></script>
@@ -259,22 +254,13 @@
 			}, 1000);
 		});
 
+		// Copyright
+		document.querySelector('.copyright').innerHTML = `&copy ${new Date().getFullYear()} - Ismail Omodara. All rights reserved.`;
+
 		//Nav menu
 		const menu = document.querySelector(".io-hamburger");
 		menu.addEventListener("click", function () {
 			menu.classList.toggle("active");
-		})
-
-		//Custom Cursor
-		const cursor = document.querySelector(".cursor");
-		document.addEventListener("mousemove", e => {
-			cursor.setAttribute("style", `top: ${e.pageY - 10}px; left: ${e.pageX - 10}px`);
-		})
-		document.addEventListener("click", () => {
-			cursor.classList.add("expand");
-			setTimeout(() => {
-				cursor.classList.remove("expand");
-			}, 500);
 		})
 	</script>
 </body>
