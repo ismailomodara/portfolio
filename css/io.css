@@ -196,10 +196,6 @@ section {
 	border-bottom: 10px solid #0B1B24;
 }
 
-.io-header > div {
-	opacity: 0;
-}
-
 .io-nav {
 	position: absolute;
 	top: 80px;
@@ -455,6 +451,10 @@ section {
 .io-section--heading~p {
 	width: 80%;
 	margin: auto auto 20px;
+}
+
+.io-about {
+	padding-bottom: 20px;
 }
 
 .io-work--experience p {

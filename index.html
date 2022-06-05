@@ -15,14 +15,6 @@
 </head>
 
 <body>
-	<div class="io-loader">
-		<div>
-			<div class="stripe"></div>
-			<div class="stripe"></div>
-			<div class="stripe"></div>
-			<div class="stripe"></div>
-		</div>
-	</div>
 	<main>
 		<div data-scroll>
 			<header class="io-header">
@@ -137,7 +129,7 @@
 			<section class="io-about" id="about">
 				<div class="io-container">
 					<h2 class="io-section--heading">About Me</h2>
-					<p>I'm a Frontend Engineer with 3+ years of experience designing and building web applications, crafting seamless digital experiences. With a background as a UI Designer, I build functional experiences on the web, because I think and see things not just as an engineer, but also as a user. </p>
+					<p>A motivated software engineer(frontend) with expertise in building and crafting seamless digital experiences to solve problems. A strategic and agile thinker who is known for handling ambiguous situations and effectively presenting solutions to drive change. </p>
 				</div>
 			</section>
 			<section class="io-work--experience" id="experience">
@@ -240,28 +232,9 @@
 	<script src="js/imagesloaded.pkgd.min.js"></script>
 	<script src="js/io.js"></script>
 	<script>
-		//Loader
-		window.addEventListener('load', () => {
-			setTimeout(() => {
-				const loader = document.querySelector('.io-loader');
-				loader.classList.add("loaded");
-				document.querySelectorAll(".io-header > div").forEach(element => {
-					element.classList.add("fadeIn");
-				})
-				setTimeout(() => {
-					loader.classList.add("hidden");
-				}, 3000);
-			}, 1000);
-		});
 
 		// Copyright
 		document.querySelector('.copyright').innerHTML = `&copy ${new Date().getFullYear()} - Ismail Omodara. All rights reserved.`;
-
-		//Nav menu
-		const menu = document.querySelector(".io-hamburger");
-		menu.addEventListener("click", function () {
-			menu.classList.toggle("active");
-		})
 	</script>
 </body>
 
