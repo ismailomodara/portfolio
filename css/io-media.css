@@ -7,7 +7,7 @@
         font-size: 5rem;
         margin-bottom: 20px;
     }
-    
+
     .io-header--text h6 {
         font-size: 1.5rem;
     }
@@ -53,11 +53,11 @@
     .cursor {
         display: none;
     }
-    
+
     h2 {
         font-size: 2rem;
     }
-    
+
     .io-header {
         padding: 0 20px;
     }
@@ -103,7 +103,7 @@
     }
 
     .io-work--places {
-        flex-direction: column;
+        grid-template-columns: 1fr;
     }
 
     .io-work--place {
@@ -113,7 +113,7 @@
     .item {
         margin: 5vh auto;
     }
-    
+
     .item::before {
         font-size: 3rem;
         bottom: calc(100% - 1rem);
